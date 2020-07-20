@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
   //MARK: - Properties
-  private let myButton : UIButton = {
-    let bt = UIButton()
+  private let myButton : MyCustomButton = {
+    let bt = MyCustomButton()
     return bt
   }()
 
@@ -26,6 +26,8 @@ class ViewController: UIViewController {
 
   //MARK: - setUI()
   private func setUI() {
+    let viewModel = MyCustomButtonViewModel(title: "구매", image: "cart")
+    myButton.configure(with: viewModel)
     myButton.backgroundColor = .blue
     view.addSubview(myButton)
   }
