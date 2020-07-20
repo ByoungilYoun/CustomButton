@@ -38,6 +38,9 @@ class MyCustomButton : UIButton {
   init(with viewModel : MyCustomButtonViewModel) {
     self.viewModel = viewModel
     super.init(frame: .zero)
+    
+    setUI()
+    configure(with: viewModel)
   }
   
   required init?(coder: NSCoder) {
