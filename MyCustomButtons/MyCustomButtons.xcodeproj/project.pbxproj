@@ -13,6 +13,9 @@
 		0FBA8EB3256AB3C400C2D6FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA8EB1256AB3C400C2D6FC /* Main.storyboard */; };
 		0FBA8EB5256AB3C400C2D6FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA8EB4256AB3C400C2D6FC /* Assets.xcassets */; };
 		0FBA8EB8256AB3C400C2D6FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FBA8EB6256AB3C400C2D6FC /* LaunchScreen.storyboard */; };
+		0FBA8EC3256ABAC500C2D6FC /* TwoLinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */; };
+		0FBA8EC7256ABAED00C2D6FC /* IconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */; };
+		0FBA8ECA256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		0FBA8EB4256AB3C400C2D6FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0FBA8EB7256AB3C400C2D6FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0FBA8EB9256AB3C400C2D6FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButton.swift; sourceTree = "<group>"; };
+		0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextButton.swift; sourceTree = "<group>"; };
+		0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				0FBA8EAB256AB3C400C2D6FC /* AppDelegate.swift */,
 				0FBA8EAD256AB3C400C2D6FC /* SceneDelegate.swift */,
 				0FBA8EAF256AB3C400C2D6FC /* ViewController.swift */,
+				0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */,
+				0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */,
+				0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */,
 				0FBA8EB1256AB3C400C2D6FC /* Main.storyboard */,
 				0FBA8EB4256AB3C400C2D6FC /* Assets.xcassets */,
 				0FBA8EB6256AB3C400C2D6FC /* LaunchScreen.storyboard */,
@@ -137,9 +146,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FBA8EC3256ABAC500C2D6FC /* TwoLinedButton.swift in Sources */,
 				0FBA8EB0256AB3C400C2D6FC /* ViewController.swift in Sources */,
 				0FBA8EAC256AB3C400C2D6FC /* AppDelegate.swift in Sources */,
 				0FBA8EAE256AB3C400C2D6FC /* SceneDelegate.swift in Sources */,
+				0FBA8ECA256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift in Sources */,
+				0FBA8EC7256ABAED00C2D6FC /* IconTextButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
