@@ -55,10 +55,11 @@ class IconTextButton : UIButton {
   override func layoutSubviews() {
     super.layoutSubviews()
     label.sizeToFit()
-    let iconSize : CGFloat = 18
-    let iconX : CGFloat = (frame.size.width - label.frame.size.width - iconSize - 5) / 2
+    let iconSize : CGFloat = 30
+    let iconRightPadding : CGFloat = 8
+    let iconX : CGFloat = (frame.size.width - label.frame.size.width - iconSize - iconRightPadding) / 2
     iconImageView.frame = CGRect(x: iconX, y: (frame.size.height - iconSize) / 2, width: iconSize, height: iconSize)
-    label.frame = CGRect(x: iconX + iconSize + 5, y: 0, width: label.frame.size.width, height: frame.size.height)
+    label.frame = CGRect(x: iconX + iconSize + iconRightPadding, y: 0, width: label.frame.size.width, height: frame.size.height)
     
   }
 }
