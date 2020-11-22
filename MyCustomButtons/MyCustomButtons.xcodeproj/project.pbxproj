@@ -16,6 +16,7 @@
 		0FBA8EC3256ABAC500C2D6FC /* TwoLinedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */; };
 		0FBA8EC7256ABAED00C2D6FC /* IconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */; };
 		0FBA8ECA256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */; };
+		0FBA8ECE256ABF4A00C2D6FC /* IconTextButtonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBA8ECD256ABF4A00C2D6FC /* IconTextButtonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButton.swift; sourceTree = "<group>"; };
 		0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextButton.swift; sourceTree = "<group>"; };
 		0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoLinedButtonViewModel.swift; sourceTree = "<group>"; };
+		0FBA8ECD256ABF4A00C2D6FC /* IconTextButtonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconTextButtonViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,7 +67,7 @@
 				0FBA8EAB256AB3C400C2D6FC /* AppDelegate.swift */,
 				0FBA8EAD256AB3C400C2D6FC /* SceneDelegate.swift */,
 				0FBA8EAF256AB3C400C2D6FC /* ViewController.swift */,
-				0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */,
+				0FBA8ED0256ABF4F00C2D6FC /* ViewModel */,
 				0FBA8EC2256ABAC500C2D6FC /* TwoLinedButton.swift */,
 				0FBA8EC6256ABAED00C2D6FC /* IconTextButton.swift */,
 				0FBA8EB1256AB3C400C2D6FC /* Main.storyboard */,
@@ -74,6 +76,15 @@
 				0FBA8EB9256AB3C400C2D6FC /* Info.plist */,
 			);
 			path = MyCustomButtons;
+			sourceTree = "<group>";
+		};
+		0FBA8ED0256ABF4F00C2D6FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0FBA8EC9256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift */,
+				0FBA8ECD256ABF4A00C2D6FC /* IconTextButtonViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +162,7 @@
 				0FBA8EAC256AB3C400C2D6FC /* AppDelegate.swift in Sources */,
 				0FBA8EAE256AB3C400C2D6FC /* SceneDelegate.swift in Sources */,
 				0FBA8ECA256ABBA100C2D6FC /* TwoLinedButtonViewModel.swift in Sources */,
+				0FBA8ECE256ABF4A00C2D6FC /* IconTextButtonViewModel.swift in Sources */,
 				0FBA8EC7256ABAED00C2D6FC /* IconTextButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
