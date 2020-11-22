@@ -56,8 +56,8 @@ final class TwoLinedButton : UIButton {
   //MARK: - layoutSubviews
   override func layoutSubviews() {
     super.layoutSubviews()
-    primaryLabel.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height / 2)
-    secondaryLabel.frame = CGRect(x: 0, y: frame.size.height / 2, width: frame.size.width, height: frame.size.height / 2)
+    primaryLabel.frame = CGRect(x: 5, y: 0, width: frame.size.width - 10, height: frame.size.height / 2)
+    secondaryLabel.frame = CGRect(x: 5, y: frame.size.height / 2, width: frame.size.width - 10, height: frame.size.height / 2)
     
   }
 }
